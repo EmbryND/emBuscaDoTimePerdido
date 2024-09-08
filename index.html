@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Em busca do time perdido</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo0">
+            <p>Um dia desses, tava navegando pela internet em casa, no meu celular. Eu descobri uma postagem sobre um time perdido, escondida pela escassez e podridão da região. Nessa postagem, o autor da postagem deixa algumas pistas para encontrar esse time, e assim eu decidi segui-las!</p>
+            <button class="btnProximo" data-proximo="1">São Paulo</button>
+            <button class="btnProximo" data-proximo="2">Rio de Janeiro</button>
+        </div>
+        <div class="passo" id="passo1">
+            <img src="Imagens/avenidaPaulista.jpg" alt="Avenida Paulista">
+            <p>Você começa sua jornada em São Paulo, atravessando pelas ruas da Avenida Paulista ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btnProximo" data-proximo="3">Procurar a pista pela região</button>
+            <button class="btnProximo" data-proximo="4">Desistir e voltar pra casa</button>       
+        </div>
+        <div class="passo" id="passo2">
+            <img src="Imagens/praiaDeCopacabana.jpg" alt="Praia de Copacabana">
+            <p>No Rio, você atravessa pela bonita e famosa praia de Copacabana. Na postagem, uma das pistas indica que para localizar a entrada para a sede do time perdido você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btnProximo" data-proximo="5">Investigar os arredores do Maracanã</button>
+            <button class="btnProximo" data-proximo="6">Explorar a região da praia de Copacabana</button>       
+        </div>
+        <div class="passo" id="passo3">
+            <p>Pela região da avenida, você encontra um tecido de camisa rasgado, onde suas cores estão em preto com listras brancas. Ao virar, você encontra uma pista de onde esse time possa estar.</p>
+            <button class="btnProximo" data-proximo="7">Ir para a região informada da camisa</button>
+        </div>
+        <div class="passo" id="passo4">
+            <p>Você decide que a aventura é complicada demais, e resolve voltar para casa, se perguntando o que poderia ter encontrado com aquela postagem.</p>
+        </div>
+        <div class="passo" id="passo5">
+            <img src="Imagens/maracana.jpeg" alt="Arredores do Maracanã">
+            <p>Nos arredores do estádio, você descobre uma pequena bandeirinha largada no chão, com as cores preto e branco de maneira listrada, onde atrás dessa bandeira, indica uma pista de onde esse time possa estar: São Paulo.</p>
+            <button class="btnProximo" data-proximo="7">Ir para São Paulo</button>       
+        </div>
+        <div class="passo" id="passo6">
+            <img src="Imagens/praiaDeCopacabana2.jpg" alt="Beira do mar">
+            <p>Na região de Copacabana, você não encontra nada, além de areia e guarda-sois parados na beira do mar.</p>
+            <button class="btnProximo" data-proximo="8">Voltar para os arredores do Maracanã</button>       
+        </div>
+        <div class="passo" id="passo7">
+            <img src="Imagens/metroSP.jpg" alt="Metrô de São Paulo">
+            <p>Em São Paulo, no metrô da cidade, você vê que há duas linhas: a linha vermelha e a linha azul.</p>
+            <button class="btnProximo" data-proximo="9">Ir para a linha vermelha</button>
+            <button class="btnProximo" data-proximo="10">Ir para a linha azul</button>       
+        </div>
+        <div class="passo" id="passo8">
+            <img src="Imagens/maracana.jpeg" alt="Arredores do Maracanã">
+            <p>De volta ao Maracanã, você finalmente encontra uma pequena bandeirinha largada no chão, com as cores preto e branco de maneira listrada, onde atrás dessa bandeira, indica uma pista de onde esse time possa estar: São Paulo.</p>
+            <button class="btnProximo" data-proximo="7">Ir para São Paulo</button>       
+        </div>
+        <div class="passo" id="passo9">
+            <img src="Imagens/regiaoTatuape.jpg" alt="Região do Tatuapé">
+            <p>A linha vermelha te leva para a região da sede do time perdido.</p>
+            <button class="btnProximo" data-proximo="11">Ir para a sede do clube</button>       
+        </div>
+        <div class="passo" id="passo10">
+            <img src="Imagens/bairroLiberdade.jpg" alt="Bairro da Liberdade">
+            <p>A linha azul te leva para uma outra região, distante da sede do time perdido.</p>
+            <button class="btnProximo" data-proximo="12">Retornar e pegar a linha vermelha do metrô</button>       
+        </div>
+        <div class="passo" id="passo11">
+            <img src="Imagens/parqueSaoJorge.jpeg" alt="Parque São Jorge">
+            <p>Pela região, você descobre o Parque São Jorge, sede do antigo clube de futebol chamado Sport Club Corinthians Paulista. Após o fim da sua aventura, você decide comprar o time para restaura-lo e transforma-lo em um time gigante mais uma vez.</p>
+        </div>
+        <div class="passo" id="passo12">
+            <img src="Imagens/regiaoTatuape.jpg" alt="Região do Tatuapé">
+            <p>Você retorna, e decide ir para a região onde está a sede do clube.</p>
+            <button class="btnProximo" data-proximo="11">Ir para a sede do clube</button>       
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
